@@ -64,7 +64,7 @@ Location With Pincode,Latitude,Longitude And Others:"""
 
 st.markdown(markdown)
 
-file_path = "https://github.com/rajuceg/Geo-Map/raw/main/Bangalore.Dind.csv"
+file_path = "https://github.com/bhuhpramaan-geomap/bhuhpramaan-geomap/blob/main/bangalore_wards.csv"
 
 df = pd.read_csv(file_path)
 
