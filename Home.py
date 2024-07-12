@@ -64,7 +64,7 @@ Bangalore Wards:"""
 
 st.markdown(markdown)
 
-file_path = "https://github.com/bhuhpramaan-geomap/bhuhpramaan-geomap/raw/main/bangalore_wards.csv"
+file_path = ""
 
 df = pd.read_csv(file_path)
 
