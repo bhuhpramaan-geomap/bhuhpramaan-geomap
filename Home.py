@@ -60,7 +60,7 @@ Agriculture:
 
 Bangalore, surrounded by fertile rural areas, is a hub for horticulture, silk production, and dairy farming. The region is known for cultivating fruits, vegetables, flowers, and key crops like ragi and maize. Bangalore also hosts prominent agricultural research institutions like the University of Agricultural Sciences, fostering innovations in farming techniques and crop improvement. Despite challenges from urbanization and water scarcity, government initiatives support local farmers with subsidies, training, and market access, maintaining the area's significant role in agriculture.
 
-Location With Pincode,Latitude,Longitude And Others:"""
+Bangalore Wards:"""
 
 st.markdown(markdown)
 
