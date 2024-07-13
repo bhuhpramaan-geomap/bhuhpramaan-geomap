@@ -1,5 +1,3 @@
-
-
 import streamlit as st
 import pandas as pd
 import leafmap.foliumap as leafmap
@@ -7,7 +5,7 @@ import leafmap.foliumap as leafmap
 st.set_page_config(layout="wide")
 
 markdown = """
-Our Website
+Website
 <https://www.bhuhpramaan.com>
 """
 
@@ -27,11 +25,11 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-st.title("LAND USE AND LAND COVER (LULC) OF BANGALORE CITY -A GEOSPATIAL APPROACH")
+st.title("Land use and Land classification of Bangalore")
 
 st.markdown(
     """
-    Land-use and land-cover change (LULCC); is a general term for the human modification of Earth's terrestrial surface. Bangalore City is one of the rapidly growing city in India as well as in Asia. The Growth of the Bangalore city took its speed after 2000-23, because of Real Estate, Globalization and its policies. Bangalore city is the part of Bangalore Urban District, the city has 709 KM2 Geographical area but the urban district has 2196KM2. The population of the study area crosses over 105 million in 2017. The Population and the City growth mainly affected the LULC of the area. Land Use and Land Cover look like similar words but while studying deeply we can understand LULC concept easily. For the study purpose only Urban and Urban influence area have been taken. The major aim of the research paper is to show the changes occur in the LULC of Bangalore City using Remote Sensing Technology. Multi- Spectral Satellite Imageries are used to know the development and changes taken in Land Use and Land Cover. GIS and ERDAS Technologies are used to do mapping and analysis. The research paper mainly concentrating on City and BBMP region but some packages of land have been used to understand the influencing zone of Urban and Rural.
+    The Land Use and Land Cover (LULC) change happened during the Twenty-Three year period in Bengaluru Urban District, Karnataka. One of the fast-growing cities in India is Bengaluru which has undergone many changes to its landscape as it moves to urbanization. Land cover / land use changes (LULC) were assessed through the employment of remote sensing data and Geographic Information System (GIS) technology, for years 2000 to 2023. Built-up, vegetation, water bodies and barren land are classified based on the desired land use through a machine learning algorithm known as Support Vector Machine. This page shows the significant expansion in built-up landuse, mainly at the cost of greenspace and bare land. The change underscores an urgent need for sustainable urban planning to tackle environmental risks associated with the expansion of megacities, such as increased temperatures.
     """
 )
 
@@ -60,11 +58,12 @@ Agriculture:
 
 Bangalore, surrounded by fertile rural areas, is a hub for horticulture, silk production, and dairy farming. The region is known for cultivating fruits, vegetables, flowers, and key crops like ragi and maize. Bangalore also hosts prominent agricultural research institutions like the University of Agricultural Sciences, fostering innovations in farming techniques and crop improvement. Despite challenges from urbanization and water scarcity, government initiatives support local farmers with subsidies, training, and market access, maintaining the area's significant role in agriculture.
 
-Bangalore Wards:"""
+Bangalore Ward:"""
 
 st.markdown(markdown)
 
 file_path = "https://github.com/bhuhpramaan-geomap/bhuhpramaan-geomap/raw/main/Bangalore.csv"
+file_path = ""
 
 df = pd.read_csv(file_path)
 
