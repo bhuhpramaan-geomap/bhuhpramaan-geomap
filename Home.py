@@ -25,7 +25,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-st.title("Land use and Land classification of Bangalore")
+st.title("LAND USE AND LAND COVER (LULC) OF BANGALORE CITY -A GEOSPATIAL APPROACH")
 
 st.markdown(
     """
