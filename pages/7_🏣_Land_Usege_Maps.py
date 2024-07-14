@@ -40,22 +40,3 @@ m.split_map(
     )
 
 m.to_streamlit(height=800)
-
-st.markdown(
-    """This is Some Land Use Data From 2000 Vs 2023 Reports """
-)
-
-file_path = "https://github.com/rajuceg/Geo-Map/raw/main/Land%20Usage%20Category%20Dind.csv"
-
-df = pd.read_csv(file_path)
-
-st.dataframe(df)
-
-hide_st_style = """
-            <style>
-            #MainMenu {visibility: hidden;}
-            footer {visibility: hidden;}
-            header {visibility: hidden;}
-            </style>
-            """
-st.markdown(hide_st_style, unsafe_allow_html=True)
