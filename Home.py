@@ -5,7 +5,6 @@ import leafmap.foliumap as leafmap
 st.set_page_config(layout="wide")
 
 markdown = """
-Our Website
 <https://www.bhuhpramaan.com>
 """
 
