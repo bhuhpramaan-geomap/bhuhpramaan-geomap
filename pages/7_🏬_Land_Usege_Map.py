@@ -49,7 +49,7 @@ raster_files = {
 
 # Place the map in the left column
 with col1:
-    m = leafmap.Map()
+    m = leafmap.Map(tiles="http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", attr="Map data © OpenStreetMap contributors")  # Set the base layer to satellite view with attribution
     
     # Use custom radio buttons for the right column
     with col2:
