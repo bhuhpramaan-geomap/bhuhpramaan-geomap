@@ -62,7 +62,7 @@ Places with Bangalore Ward:"""
 
 st.markdown(markdown)
 
-file_path = "https://github.com/bhuhpramaan-geomap/bhuhpramaan-geomap/raw/main/Bangalore.csv"
+file_path = "https://github.com/bhuhpramaan-geomap/bhuhpramaan-geomap/raw/main/Bangalore%20ward%20Data.csv"
 
 df = pd.read_csv(file_path)
 
