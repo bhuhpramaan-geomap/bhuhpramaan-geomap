@@ -41,10 +41,10 @@ col1, col2 = st.columns([6, 1])
 
 # Define the raster files for each year
 raster_files = {
-    "2000": "https://github.com/rajuceg/Geo-Map/raw/main/2000.tif",
+    "2000": "https://github.com/bhuhpramaan-geomap/bhuhpramaan-geomap/raw/main/2000.tif",
     "2010": "https://github.com/bhuhpramaan-geomap/bhuhpramaan-geomap/raw/main/2010.tif",
     "2020": "https://github.com/bhuhpramaan-geomap/bhuhpramaan-geomap/raw/main/2020.tif",
-    "2023": "https://github.com/rajuceg/Geo-Map/raw/main/2023.tif"
+    "2023": "https://github.com/bhuhpramaan-geomap/bhuhpramaan-geomap/raw/main/2023.tif"
 }
 
 # Place the map in the left column
